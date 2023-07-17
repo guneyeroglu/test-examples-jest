@@ -25,7 +25,7 @@ test('shoulds render completed todo', () => {
 });
 
 test('matches snapshot', () => {
-  const todo = { id: 1, title: 'wash dishes', completed: false };
+  const todo = { id: 3, title: 'make dinner', completed: false };
   const tree = renderer.create(<Todo {...todo} />).toJSON();
   //
   console.log(tree);

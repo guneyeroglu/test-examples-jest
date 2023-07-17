@@ -2,10 +2,10 @@
 
 exports[`matches snapshot 1`] = `
 <div
-  data-testid="todo-1"
+  data-testid="todo-3"
 >
   <h1>
-    wash dishes
+    make dinner
   </h1>
 </div>
 `;
